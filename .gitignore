@@ -1,0 +1,6 @@
+*.directory
+*.ipynb_checkpoints
+AnimeDistinguish/*
+Borderlands/*
+*models
+*data
