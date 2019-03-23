@@ -18,9 +18,6 @@ These are some the the images that we used to test out the model with the app.
 ![alt text][Pink]
 ![alt text][Blond]
 
-
-[Original]: https://gitlab.com/HolyDemon/redes-2/tree/master/HairSegmentation/Images/Original.png "Original"
-[Pink]: https://gitlab.com/HolyDemon/redes-2/tree/master/HairSegmentation/Images/Pink.png "Pink"
-[Blond]: https://gitlab.com/HolyDemon/redes-2/tree/master/HairSegmentation/Images/Blond.png "Blond"
-
-
+[Original]: Images/Original.png "Original"
+[Pink]: Images/Pink.png "Pink"
+[Blond]: Images/Blond.png "Blond"
