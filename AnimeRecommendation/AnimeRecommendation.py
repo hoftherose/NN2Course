@@ -90,6 +90,7 @@ class Recommendor():
         return animes_rate_prediction[:num]
 
     def predicted_score(self, anime_id:int):
+        print(torch.tensor([anime_id]).cuda())
         weight = (self.learner.model.i_weight(torch.tensor([anime_id]).cuda())*self.user_weights).sum(dim=1)
         bias = self.learner.model.i_bias(torch.tensor([anime_id]).cuda()).squeeze() + self.user_bias
         result = weight + bias
