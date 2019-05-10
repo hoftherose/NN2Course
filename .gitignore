@@ -5,3 +5,7 @@ Borderlands/*
 *models
 *data
 *.vscode
+Sound/Clean*
+Sound/Noise*
+Sound/trash*
+Sound/Data*
