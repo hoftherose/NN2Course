@@ -1,5 +1,6 @@
 *.directory
 *.ipynb_checkpoints
+*.trash*
 AnimeDistinguish/*
 Borderlands/*
 *models
